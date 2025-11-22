@@ -1,0 +1,194 @@
+# 🖼️ IMAGENS NECESSÁRIAS
+
+Você precisa adicionar 2 imagens na MESMA PASTA do sistema:
+
+## 1. 📸 LOGO DA EMPRESA
+
+**Nome do arquivo:** `logo.png`
+
+**Características:**
+- Formato: PNG (recomendado), JPG ou JPEG
+- Tamanho recomendado: 200 x 80 pixels
+- Fundo: Transparente (PNG) é o ideal
+- Qualidade: Alta resolução
+- Onde aparece: Cabeçalho superior direito do orçamento
+
+**Como criar:**
+1. Use seu logo existente
+2. Redimensione para aproximadamente 200x80 pixels
+3. Salve como PNG com fundo transparente
+4. Nomeie como: `logo.png` (tudo minúsculo)
+
+**Ferramentas online gratuitas:**
+- remove.bg (remover fundo)
+- iloveimg.com (redimensionar)
+- canva.com (criar logo)
+
+---
+
+## 2. 📱 QR CODE PIX
+
+**Nome do arquivo:** `qrcode-pix.png`
+
+**Características:**
+- Formato: PNG (recomendado), JPG ou JPEG
+- Tamanho recomendado: 200 x 200 pixels (quadrado)
+- Qualidade: Boa resolução para escaneamento
+- Onde aparece: Seção de pagamento do orçamento
+
+**Como gerar:**
+
+### Opção 1 - Pelo App do Banco:
+1. Abra o app do seu banco
+2. Vá em PIX > Receber
+3. Gere um QR Code (pode ser chave fixa)
+4. Tire um print ou salve a imagem
+5. Recorte apenas o QR Code
+6. Salve como: `qrcode-pix.png`
+
+### Opção 2 - Sites geradores:
+- qrcode-monkey.com
+- qr-code-generator.com
+- geradordeqrcode.com.br
+
+**Dados para o QR Code:**
+- Sua chave PIX (CPF, celular, email ou aleatória)
+- Pode incluir valor fixo (opcional)
+- Pode incluir descrição (opcional)
+
+---
+
+## 📁 ESTRUTURA FINAL DA PASTA
+
+Depois de adicionar as imagens, sua pasta deve estar assim:
+
+```
+📁 Meus-Orcamentos/
+  ├── orcamento-eletrico-completo.html  ⚡ Sistema
+  ├── config.js                          ⚙️ Configurações
+  ├── logo.png                           🖼️ SUA LOGO AQUI
+  └── qrcode-pix.png                     📱 SEU QR CODE AQUI
+```
+
+---
+
+## ⚠️ IMPORTANTE
+
+### Nomes dos arquivos DEVEM ser exatamente:
+
+✅ **CORRETO:**
+- `logo.png`
+- `qrcode-pix.png`
+
+❌ **ERRADO:**
+- `Logo.png`, `LOGO.PNG`, `Logo.PNG`
+- `QRCode.png`, `qrcode.png`, `QRCODE-PIX.PNG`
+- `minha-logo.png`, `logo-empresa.png`
+- `pix.png`, `qrcode.png`
+
+### Se quiser usar nomes diferentes:
+
+Edite o arquivo **config.js** na seção:
+
+```javascript
+const arquivosImagem = {
+    logo: "meu-logo.png",              // Coloque seu nome aqui
+    qrcodePix: "meu-qrcode.png"        // Coloque seu nome aqui
+};
+```
+
+---
+
+## 🎨 DICAS DE QUALIDADE
+
+### Para o LOGO:
+- ✓ Use alta resolução
+- ✓ Fundo transparente (PNG)
+- ✓ Cores nítidas
+- ✓ Sem compressão excessiva
+- ✓ Tamanho adequado (200x80px ideal)
+
+### Para o QR CODE:
+- ✓ Imagem clara e nítida
+- ✓ Alto contraste (preto no branco)
+- ✓ Sem cortes nas bordas
+- ✓ Tamanho adequado para escaneamento
+- ✓ Testado e funcionando
+
+---
+
+## 🧪 TESTAR AS IMAGENS
+
+### Testar o LOGO:
+1. Abra o arquivo de imagem
+2. Verifique se está claro
+3. Veja se tem boa resolução
+4. Confirme o nome do arquivo
+
+### Testar o QR CODE:
+1. Abra o arquivo de imagem
+2. Use seu celular para escanear
+3. Verifique se lê corretamente
+4. Confirme se aponta para sua chave PIX
+
+---
+
+## ❓ NÃO TEM LOGO?
+
+Sem problemas! Você tem algumas opções:
+
+1. **Deixar sem logo:**
+   - Sistema funciona normalmente
+   - Apenas não aparecerá logo no cabeçalho
+
+2. **Criar um logo simples:**
+   - Use Canva.com (gratuito)
+   - Crie um design com seu nome
+   - Baixe como PNG
+
+3. **Usar texto:**
+   - Crie uma imagem com o nome da empresa
+   - Use qualquer editor de imagem
+   - PowerPoint também funciona
+
+---
+
+## ❓ NÃO TEM QR CODE PIX?
+
+Sem problemas! Você tem algumas opções:
+
+1. **Deixar sem QR Code:**
+   - Sistema funciona normalmente
+   - Seção de pagamento fica oculta
+   - Pode informar chave PIX no texto
+
+2. **Gerar agora:**
+   - Use o app do seu banco
+   - Ou sites geradores online
+   - Salve a imagem
+
+3. **Adicionar depois:**
+   - Sistema funciona sem
+   - Adicione quando tiver
+
+---
+
+## 📞 CHECKLIST FINAL
+
+Antes de usar o sistema, confirme:
+
+- [ ] Tenho o arquivo `orcamento-eletrico-completo.html`
+- [ ] Tenho o arquivo `config.js` editado
+- [ ] Tenho o arquivo `logo.png` na pasta (ou deixei sem)
+- [ ] Tenho o arquivo `qrcode-pix.png` na pasta (ou deixei sem)
+- [ ] Todos os arquivos estão na MESMA PASTA
+- [ ] Nomes dos arquivos estão corretos (minúsculas)
+- [ ] Testei as imagens (abrem normalmente)
+
+---
+
+## ✅ PRONTO!
+
+Agora você pode abrir o arquivo HTML e começar a usar o sistema!
+
+**Boa sorte com seus orçamentos! ⚡💰**

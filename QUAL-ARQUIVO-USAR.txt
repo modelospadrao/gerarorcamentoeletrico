@@ -1,0 +1,212 @@
+# 🎯 QUAL ARQUIVO HTML USAR?
+
+## 📌 RESPOSTA RÁPIDA:
+
+### 🏆 USE ESTE → **orcamento-eletrico-final.html**
+
+Este é o arquivo COMPLETO com TODAS as funcionalidades!
+
+---
+
+## 📂 DIFERENÇAS ENTRE OS ARQUIVOS:
+
+### 1️⃣ orcamento-eletrico.html
+**Versão Básica (primeira versão)**
+
+Tem:
+- ✅ Formulário completo
+- ✅ Dados prestador e cliente
+- ✅ Serviços e materiais
+- ✅ Upload de fotos
+- ✅ Geração de PDF
+- ✅ WhatsApp
+
+NÃO tem:
+- ❌ Logo no cabeçalho
+- ❌ QR Code PIX
+- ❌ Projeto elétrico
+- ❌ Dados externos (config.js)
+- ❌ Exportar/Importar
+- ❌ Número automático
+- ❌ 2 telefones
+
+**Quando usar:** Apenas se quiser a versão mais simples
+
+---
+
+### 2️⃣ orcamento-eletrico-completo.html
+**Versão Intermediária**
+
+Tem TUDO da versão básica MAIS:
+- ✅ Logo no cabeçalho
+- ✅ QR Code PIX
+- ✅ Projeto elétrico
+- ✅ Dados do prestador carregam do config.js
+- ✅ Responsivo (mobile/desktop)
+- ✅ Cálculo automático
+
+NÃO tem:
+- ❌ Exportar/Importar
+- ❌ Número automático
+- ❌ 2 telefones
+
+**Quando usar:** Se não precisa salvar/carregar orçamentos
+
+---
+
+### 3️⃣ orcamento-eletrico-final.html ⭐
+**Versão FINAL E COMPLETA**
+
+Tem TUDO das versões anteriores MAIS:
+- ✅✅ **Exportar orçamento** (salva tudo em .json)
+- ✅✅ **Importar orçamento** (carrega arquivo salvo)
+- ✅✅ **Número automático** (CPF + Data + Hora)
+- ✅✅ **2 telefones** para o cliente
+
+**Quando usar:** SEMPRE! É a versão completa e profissional
+
+---
+
+## 🎯 QUAL ESCOLHER?
+
+```
+┌─────────────────────────────────────────┐
+│                                         │
+│    USE O orcamento-eletrico-final.html │
+│                                         │
+│    ✅ É o mais completo                │
+│    ✅ Tem todas as funcionalidades     │
+│    ✅ Exportar/Importar                │
+│    ✅ Número automático                │
+│    ✅ 2 telefones                      │
+│    ✅ Logo e QR Code                   │
+│    ✅ Projeto elétrico                 │
+│    ✅ Responsivo                       │
+│                                         │
+└─────────────────────────────────────────┘
+```
+
+---
+
+## 🗂️ ARQUIVOS NECESSÁRIOS:
+
+Para usar o **orcamento-eletrico-final.html** você precisa:
+
+### Obrigatórios:
+1. ✅ `orcamento-eletrico-final.html` - Sistema principal
+2. ✅ `config.js` - Suas configurações
+
+### Opcionais (recomendados):
+3. ⭐ `logo.png` - Logo da empresa
+4. ⭐ `qrcode-pix.png` - QR Code PIX
+
+### Documentação (para consulta):
+5. 📖 `RESUMO-RAPIDO.txt` - Resumo das funcionalidades
+6. 📖 `NOVAS-FUNCIONALIDADES.md` - Guia detalhado
+7. 📖 `GUIA-INSTALACAO.md` - Manual completo
+8. 📖 `INICIO-RAPIDO.txt` - Começo rápido
+9. 📖 `IMAGENS-NECESSARIAS.txt` - Como criar imagens
+
+---
+
+## 📁 ESTRUTURA FINAL:
+
+```
+📁 Meus-Orcamentos/
+  │
+  ├── 🎯 orcamento-eletrico-final.html   ⭐ USAR ESTE!
+  ├── ⚙️ config.js                        ⭐ EDITAR ESTE!
+  ├── 🖼️ logo.png                         ⭐ SUA LOGO
+  ├── 📱 qrcode-pix.png                   ⭐ SEU QR CODE
+  │
+  ├── 📖 RESUMO-RAPIDO.txt               (consulta)
+  ├── 📖 NOVAS-FUNCIONALIDADES.md        (consulta)
+  ├── 📖 GUIA-INSTALACAO.md              (consulta)
+  ├── 📖 INICIO-RAPIDO.txt               (consulta)
+  └── 📖 IMAGENS-NECESSARIAS.txt         (consulta)
+```
+
+---
+
+## 🚀 INÍCIO RÁPIDO:
+
+### 3 Passos:
+
+**1️⃣ Edite config.js**
+```javascript
+const dadosPrestador = {
+    nome: "Seu Nome",
+    cpfCnpj: "000.000.000-00",
+    email: "seu@email.com",
+    telefone: "(85) 98765-4321",
+    endereco: "Seu endereço"
+};
+```
+
+**2️⃣ Adicione as imagens** (opcional mas recomendado)
+- `logo.png` na mesma pasta
+- `qrcode-pix.png` na mesma pasta
+
+**3️⃣ Abra o HTML**
+- Dê duplo clique em `orcamento-eletrico-final.html`
+- Seus dados já estarão preenchidos!
+
+---
+
+## ❓ PERGUNTAS FREQUENTES:
+
+### P: Posso deletar os outros HTML?
+**R:** Sim! Você só precisa do `orcamento-eletrico-final.html`
+
+### P: E se eu não tiver logo ou QR Code?
+**R:** Funciona normalmente! Sistema detecta e oculta automaticamente
+
+### P: Preciso editar o HTML?
+**R:** Não! Só edite o `config.js` com seus dados
+
+### P: Posso renomear o arquivo?
+**R:** Pode, mas não é recomendado. Mantenha o nome original
+
+### P: Funciona offline?
+**R:** Sim! Após abrir a primeira vez, funciona sem internet
+
+---
+
+## 🎉 RESUMO:
+
+```
+┌──────────────────────────────────────┐
+│  ARQUIVO PRINCIPAL:                  │
+│  orcamento-eletrico-final.html      │
+│                                      │
+│  ARQUIVO DE CONFIG:                  │
+│  config.js                          │
+│                                      │
+│  IMAGENS (opcional):                 │
+│  logo.png                           │
+│  qrcode-pix.png                     │
+└──────────────────────────────────────┘
+```
+
+**Só isso que você precisa! 🎯**
+
+Os outros arquivos são documentação para consulta.
+
+---
+
+## ✅ CHECKLIST:
+
+Antes de usar, confirme:
+- [ ] Baixou `orcamento-eletrico-final.html`
+- [ ] Baixou `config.js`
+- [ ] Editou o `config.js` com seus dados
+- [ ] (Opcional) Adicionou `logo.png`
+- [ ] (Opcional) Adicionou `qrcode-pix.png`
+- [ ] Todos na MESMA PASTA
+- [ ] Abriu o HTML
+
+---
+
+**Agora é só usar! ⚡💼**
+
+**Arquivo principal:** `orcamento-eletrico-final.html`

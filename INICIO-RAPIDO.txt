@@ -1,0 +1,161 @@
+# ⚡ INÍCIO RÁPIDO - Sistema de Orçamento Elétrico
+
+## 🚀 3 PASSOS PARA COMEÇAR
+
+### 1️⃣ EDITE O CONFIG.JS
+Abra o arquivo `config.js` e coloque seus dados:
+
+```javascript
+const dadosPrestador = {
+    nome: "SEU NOME AQUI",
+    cpfCnpj: "000.000.000-00",
+    email: "seu@email.com",
+    telefone: "(85) 98765-4321",
+    endereco: "Seu endereço completo"
+};
+```
+
+### 2️⃣ ADICIONE AS IMAGENS (OPCIONAL)
+Na mesma pasta do HTML, coloque:
+- `logo.png` - Logo da sua empresa
+- `qrcode-pix.png` - QR Code do seu PIX
+
+### 3️⃣ ABRA O SISTEMA
+Dê duplo clique em: `orcamento-eletrico-completo.html`
+
+---
+
+## 📋 ARQUIVOS INCLUÍDOS
+
+✅ **orcamento-eletrico-completo.html** - Sistema principal (ABRA ESTE!)
+✅ **config.js** - Suas configurações (EDITE ESTE!)
+✅ **GUIA-INSTALACAO.md** - Manual completo
+✅ **IMAGENS-NECESSARIAS.txt** - Info sobre logo e QR Code
+✅ **README.md** - Documentação geral
+
+---
+
+## 📁 NOMES DOS ARQUIVOS DE IMAGEM
+
+Se você adicionar imagens, os nomes DEVEM ser:
+
+- ✅ `logo.png` (logo da empresa)
+- ✅ `qrcode-pix.png` (QR Code PIX)
+
+Todos na MESMA PASTA do HTML!
+
+---
+
+## 🎯 FUNCIONALIDADES PRINCIPAIS
+
+### ✅ CARREGA AUTOMATICAMENTE:
+- Seus dados do prestador
+- Logo no cabeçalho
+- QR Code PIX
+- Textos padrão
+
+### ✅ VOCÊ PREENCHE:
+- Dados do cliente
+- Serviços (com cálculo automático!)
+- Materiais
+- Projeto elétrico (opcional)
+- Fotos do local (opcional)
+
+### ✅ SISTEMA GERA:
+- Preview do orçamento
+- PDF profissional
+- Mensagem para WhatsApp
+
+---
+
+## 🧮 CÁLCULO AUTOMÁTICO
+
+Digite o preço e quantidade, o sistema calcula tudo:
+
+```
+Preço: R$ 1.000,00
+Qtd: 2
+TOTAL: R$ 2.000,00 ← AUTOMÁTICO! ✨
+```
+
+O TOTAL GERAL também soma tudo automaticamente!
+
+---
+
+## 📱 FUNCIONA EM:
+
+- ✅ Computador (Windows, Mac, Linux)
+- ✅ Celular (Android, iOS)
+- ✅ Tablet
+- ✅ Offline (após primeira abertura)
+
+O PDF se adapta automaticamente ao dispositivo!
+
+---
+
+## 🔧 SOLUÇÃO RÁPIDA DE PROBLEMAS
+
+**Logo não aparece?**
+→ Verifique se o arquivo `logo.png` está na mesma pasta
+
+**Dados não carregam?**
+→ Edite e salve o `config.js`, depois recarregue o HTML
+
+**Cálculo não funciona?**
+→ Use ponto (100.50) não vírgula para valores
+
+**PDF não gera?**
+→ Preencha todos os campos obrigatórios (*)
+
+---
+
+## 📞 CAMPOS OBRIGATÓRIOS (*)
+
+Você DEVE preencher:
+- Nome do prestador
+- CPF/CNPJ do prestador
+- Telefone do prestador
+- Nome do cliente
+- CPF/CNPJ do cliente
+- Telefone do cliente
+- Número do orçamento
+- Data
+- Pelo menos 1 serviço
+- Meios de pagamento
+- Condições de pagamento
+- Garantia
+
+---
+
+## 💡 DICA PROFISSIONAL
+
+1. ✅ Configure o `config.js` UMA VEZ
+2. ✅ Seus dados ficam salvos sempre
+3. ✅ Só preencha dados do cliente
+4. ✅ Adicione serviços
+5. ✅ Gere o PDF
+6. ✅ Envie por WhatsApp
+
+Pronto! Orçamento profissional em minutos! ⚡
+
+---
+
+## 📚 PRECISA DE MAIS AJUDA?
+
+Leia os arquivos:
+- **GUIA-INSTALACAO.md** - Manual completo passo a passo
+- **IMAGENS-NECESSARIAS.txt** - Como criar logo e QR Code
+
+---
+
+## 🎉 PRONTO PARA COMEÇAR!
+
+1. Edite o `config.js`
+2. Abra o `orcamento-eletrico-completo.html`
+3. Faça seu primeiro orçamento!
+
+**Bons negócios! ⚡💰**
+
+---
+
+**Criado com ❤️ para profissionais de instalações elétricas**
